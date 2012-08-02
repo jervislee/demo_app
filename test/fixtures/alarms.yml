@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  phone: MyString
+  set_time: MyString
+
+two:
+  phone: MyString
+  set_time: MyString

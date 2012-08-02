@@ -11,7 +11,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120801011722) do
+ActiveRecord::Schema.define(:version => 20120802151012) do
+
+  create_table "alarms", :force => true do |t|
+    t.string   "phone"
+    t.string   "set_time"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "microposts", :force => true do |t|
     t.string   "content"

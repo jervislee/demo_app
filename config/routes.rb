@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  resources :alarms
+
   resources :microposts
 
   resources :users
